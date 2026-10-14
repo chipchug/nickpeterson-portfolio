@@ -1,0 +1,7 @@
+/* Fallback for Squarespace GalleryGrid controller missing from SiteSucker archive. */
+.gallery-grid--layout-grid .gallery-grid-wrapper{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;column-gap:20px!important;row-gap:20px!important;align-items:start!important}
+.gallery-grid--layout-grid .gallery-grid-item{position:relative!important;left:auto!important;top:auto!important;transform:none!important;width:100%!important;min-width:0!important;margin:0!important}
+.gallery-grid--layout-grid .gallery-grid-item-wrapper{width:100%!important;aspect-ratio:4/3;overflow:hidden}
+.gallery-grid--layout-grid .gallery-grid-image-link{display:block;width:100%;height:100%}
+.gallery-grid--layout-grid .gallery-grid-image-link img{display:block;width:100%!important;height:100%!important;object-fit:cover}
+@media(max-width:767px){.gallery-grid--layout-grid .gallery-grid-wrapper{grid-template-columns:repeat(1,minmax(0,1fr))!important;gap:16px!important}}
